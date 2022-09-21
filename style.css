@@ -20,7 +20,7 @@ body{
     left: 0;
     top: 0;
     right: 0;
-    /* z-index: 300; */
+    z-index: 200;
 
 }
 .nav-container nav{
@@ -143,7 +143,7 @@ input{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 100;
+    z-index: 150;
 
 }
 .quickly-links{
@@ -191,6 +191,7 @@ h2{
 }
 .overlay{
     transition: all 400ms ease;
+
 }
     
 
@@ -361,4 +362,198 @@ h2{
         margin-top: 120px;
     }
     
+}
+
+/* new part */
+
+
+.iphone14pro{
+    height: 625px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+    /* background: url("/images/iphone14.jpg") no-repeat center/cover; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(0,0,0);
+    position: absolute;
+    top: 0;  
+    z-index: 100;
+    overflow: hidden;
+    cursor: pointer;
+
+    
+}
+.iphone14pro h1{
+    margin-top: 160px;
+    font-size: 50px;
+}
+.iphone14pro h3{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.imgip14pro img{
+    height: 400px;
+    width: 750px    ;
+    /* position: absolute; */
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+   
+    
+}
+.learn-and-by{
+    color: #268cec;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.iphone14pro a{
+    text-decoration: none;
+    margin:  0 20px;
+}
+.iphone14pro a:hover{
+    text-decoration: underline;
+}
+
+    /* iphone 144444444444444444 */
+
+.iphone14{
+    height: 605px;
+    width: 100%;
+    margin-top: 340px;
+   cursor: pointer;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: rgba(250,250,250);
+    z-index: 100;
+    overflow: hidden;
+    position: relative;
+}
+.iphone14 h1{
+    /* margin-top: 160px; */
+    position: absolute;
+    top: 55px;;
+    font-size: 50px;
+}
+.iphone14 h3{
+    position: absolute;
+    top: 130px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.iphone14 span{
+    position: absolute;
+    top: 170px;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.learn-and-shop{
+    position: absolute;
+    top: 220px;
+    color: #268cec;
+    font-weight: 800;
+    font-size: 20px;
+}
+.imgip14 img{
+    height: 350px;
+    width: 600px ;
+    margin-top: 250px;
+    margin-bottom: 10px;
+    
+
+
+}
+
+.iphone14 a{
+    text-decoration: none;
+    margin:  0 20px;
+}
+.iphone14 a:hover{
+    text-decoration: underline;
+}
+
+
+/* apple watch  */
+
+.applewatch{
+    height: 580px;
+    width: 100%;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(0,0,0);
+    z-index: 100;
+    overflow: hidden;
+    position: relative;
+}
+.applewatch .watch-title{
+    position: absolute;
+    top: 60px;
+    display: flex;
+    align-items: center;
+   
+}
+.applewatch .watch-title .fa-apple{
+    font-size: 50px;
+}
+.applewatch h1{
+    /* margin-top: 160px; */
+   
+  
+    font-size: 45px;
+    margin-left: 10px;
+}
+.applewatch h3{
+    position: absolute;
+    top: 120px;
+    color: rgba(204,33,39,255);
+    font-weight: 700;
+    font-size: 20px;
+}
+.applewatch h4{
+    position: absolute;
+    top: 150px;
+    font-size: 25px;
+}
+.applewatch .learn-and-buy{
+    position: absolute;
+    top: 190px;
+    color: #268cec;
+
+    font-weight: 800;
+    font-size: 20px;
+    
+
+}
+.applewatch .learn-and-buy a{
+    text-decoration: none;
+    margin:  0 20px;
+}
+
+.applewatch a:hover{
+    text-decoration: underline;
+}
+.applewatch img{
+    height: 500px;
+    width: 900px ;
+    margin-top: 200px;
+    
+
+
 }
